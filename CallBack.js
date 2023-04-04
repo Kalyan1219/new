@@ -23,4 +23,5 @@ function createPost(post,callback){
         callback()
     },2000)
 }
+//CALLING THE FUNCTION
 createPost({title:"Forth Post"},getPost)
